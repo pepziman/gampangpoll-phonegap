@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.gampangpoll" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Hello</name>
+<widget id="com.pisa.gampangpoll" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>GampangPoll</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Audience Response System For Web and Android
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="pisaindustries@gmail.com" href="https://twitter.com/albertpisa">
+        Albert Leonardo Pisa
     </author>
     <content src="index.html" />
     <preference name="permissions" value="none" />
@@ -41,6 +41,10 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
+    <gap:plugin name="com.phonegap.plugins.facebookconnect" version="0.12.0">
+        <param name="APP_ID" value="1549152758680448" />
+        <param name="APP_NAME" value="GampangPoll" />
+    </gap:plugin>
     <icon src="icon.png" />
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/icon-48-mdpi.png" />
